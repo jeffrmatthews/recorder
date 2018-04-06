@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Recorder</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <button type="button" class="close float-right" onclick="quit()" aria-label="Close" style="padding: 5px 10px;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="command-btn-list">
+                <div class="command-btn">
+                    <button id="recorderStart" class="btn btn-default">Start Recorder</button>
+					<select id="audioSource" class="form-control"></select>
+					
+					<audio id="player" controls></audio>
+					
+					<button id="start">Start</button>
+					<button id="stop">Stop</button>
+                </div>
+            </div>
+        </div>
+
+		<script src="js/recorder.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

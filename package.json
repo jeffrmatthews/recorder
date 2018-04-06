@@ -1,0 +1,17 @@
+{
+    "name": "bw-build-tool",
+    "dependencies": {
+        "electron": "^1.8.2",
+        "recorder-js": "^1.0.7",
+        "rxjs": "^5.5.6",
+        "shelljs": "^0.7.8"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "main": "main.js",
+    "version": "0.0.0",
+    "license": "MIT",
+    "description": "",
+    "author": "jmatthews"
+}
